@@ -1,74 +1,47 @@
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# Clínica Médica
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+Este projeto é um site para uma clínica médica, contendo informações sobre a clínica, horários de atendimento, serviços oferecidos, preços, contato e endereço.
 
-Além de outros recursos falados nas aulas!
+## Estrutura do Projeto
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+- **index.html**: Página principal do site.
+- **src/css/base.css**: Arquivo de estilos CSS.
+- **src/imagens/banner-clinica.png**: Imagem do banner da clínica.
 
-Abaixo como cada página deve ser criada e estruturada.
+## Seções do Site
 
-### Estrutura das páginas
+### Menu de Navegação
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+O menu de navegação permite acessar rapidamente as diferentes seções do site:
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+- Quem Somos?
+- Horários de atendimento
+- Nosso Contato
+- Contato
+- Endereço
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
+### Quem Somos?
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+Uma breve descrição sobre a clínica médica, destacando a qualidade dos cuidados de saúde, a qualificação dos profissionais e a infraestrutura moderna.
 
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+### Horários de Atendimento
 
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
+Uma tabela com os serviços oferecidos e seus respectivos preços, diferenciando os valores para dias de semana e finais de semana.
 
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
+### Nosso Contato
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+Informações de contato da clínica, incluindo telefone e email.
 
+### Endereço
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+Endereço da clínica com um mapa embutido do Google Maps para facilitar a localização.
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+### Formulário de Contato
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+Um formulário para que os visitantes possam enviar mensagens diretamente pelo site. O formulário inclui campos para Nome, E-mail, Assunto e Mensagem, além de botões para enviar e limpar o formulário.
 
-Bora pra cima!
+## Como Executar o Projeto
+
+1. Clone o repositório:
+   ```sh
+   git clone <URL-do-repositorio>
