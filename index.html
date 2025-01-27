@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica</title>
+    <link rel="stylesheet" href="src/css/base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="#quem-somos">Quem Somos?</a></li><br><br>
+                <li><a href="#horarios">Horários de atendimento</a></li><br><br>
+                <li><a href="#nosso-contato">Nosso Contato</a></li><br><br>
+                <li><a href="#contato">Contato</a></li><br><br>
+                <li><a href="#endereco">Endereço</a></li><br><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="src/imagens/banner-clinica.png" alt="Logo da clínica" height="220px" width="770px">
+            </div>
+    
+            <div class="content">
+                <h2 id="quem-somos">Quem somos?</h2>
+                <p>Somos uma clínica médica dedicada a proporcionar <strong>cuidados de saúde de alta qualidade</strong> para toda a família. Nossa equipe é composta por profissionais <strong>altamente qualificados e experientes</strong>, comprometidos em oferecer um atendimento <strong>humanizado e personalizado</strong>. Contamos com uma infraestrutura moderna e equipamentos de última geração para garantir <strong>diagnósticos precisos e tratamentos eficazes</strong>. Nosso objetivo é promover a saúde e o bem-estar de nossos pacientes, sempre com <strong><i>ética, respeito e excelência</i></strong>.</p>
+
+                <h2 id="horarios">Horários de atendimento</h2>
+                <table border="1" cellspacing="0" cellpadding="8">
+                    <thead>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Preço (Seg - Sex)</th>
+                            <th>Preço (Sáb - Dom)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Consulta Clínica</td>
+                            <td>R$ 100,00</td>
+                            <td>R$ 120,00</td>
+                        </tr>
+                        <tr>
+                            <td>Exame Laboratorial</td>
+                            <td>R$ 80,00</td>
+                            <td>R$ 90,00</td>
+                        </tr>
+                        <tr>
+                            <td>Avaliação Cardíaca</td>
+                            <td>R$ 150,00</td>
+                            <td>R$ 180,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2 id="nosso-contato">Nosso Contato:</h2>
+                <p>Telefone: <strong><u>+55 (11) 99987-3333</u></strong></p>
+                <p>Email: <strong><u>contato@clinicamedia.com</u></strong></p>
+
+                <h2 id="endereco">Endereço:</h2>
+                <p>Rua das Flores, 123, Bairro Jardim, São Paulo, SP, CEP <strong>01234-567</strong>.</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.5137606196904!2d-46.8094370238572!3d-23.441925657216764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefd6cc0d83ccf%3A0xe8c2c9d1b8163226!2sR.%20das%20Fl%C3%B4res%2C%20123%20-%20Vila%20dos%20Palmares%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2012345-678!5e0!3m2!1spt-BR!2sbr!4v1738003850647!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <h2 id="contato">Contato:</h2>
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="assunto">Assunto:</label><br>
+                    <input type="text" id="assunto" name="assunto" required><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </form>
+            </div>
+    
+            <div class="footer">
+                <p>&copy; 2025 Clínica Médica. Todos os direitos reservados.</p>
+                <p>Rua das Flores, 123, Bairro Jardim, São Paulo, SP, CEP 01234-567</p>
+                <p>Telefone: +55 (11) 99987-3333 | Email: contato@clinicamedica.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
