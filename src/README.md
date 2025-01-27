@@ -1,12 +1,12 @@
 # Clínica Médica
 
-Este projeto é um site para uma clínica médica, contendo informações sobre a clínica, horários de atendimento, serviços oferecidos, preços, contato e endereço.
+Este projeto é um site para uma clínica médica, contendo informações sobre a clínica, horários de atendimento, serviços oferecidos, preços, contato e endereço, proposta do desafio de projeto da segunda trilha da formação HTML da Dio.
 
 ## Estrutura do Projeto
 
 - **index.html**: Página principal do site.
-- **src/css/base.css**: Arquivo de estilos CSS.
-- **src/imagens/banner-clinica.png**: Imagem do banner da clínica.
+- **src/css/base.css**: Arquivo de estilos CSS (nesse projeto não foi utilizado CSS, apenas para colorir destacando cada estrutura do site).
+- **src/imagens/banner-clinica.png**: Imagem do banner da clínica, contida no header.
 
 ## Seções do Site
 
@@ -39,9 +39,3 @@ Endereço da clínica com um mapa embutido do Google Maps para facilitar a local
 ### Formulário de Contato
 
 Um formulário para que os visitantes possam enviar mensagens diretamente pelo site. O formulário inclui campos para Nome, E-mail, Assunto e Mensagem, além de botões para enviar e limpar o formulário.
-
-## Como Executar o Projeto
-
-1. Clone o repositório:
-   ```sh
-   git clone <URL-do-repositorio>
